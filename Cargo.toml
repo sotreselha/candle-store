@@ -1,0 +1,14 @@
+[package]
+build = "build.rs"
+name = "candle-store"
+version = "0.1.0"
+edition = "2021"
+authors = ["Vault Labs"]
+license = "MIT"
+description = "Candle store + replay — stub series, fee."
+readme = "README.md"
+repository = "https://github.com/vaultlabs/candle-store"
+
+[[bin]]
+name = "candle-store"
+path = "src/main.rs"
